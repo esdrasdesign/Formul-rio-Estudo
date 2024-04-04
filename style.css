@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif, arial, helvetica;
+}
+
+body{
+    background-color: #f0ebf8;
+}
+
+h1, h2, h3, h4, h5{
+    color: #333;
+}
+
+p, label{
+    color: #444;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+    
+
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+textarea{
+    width: 400px;
+}
+
+textarea{
+    padding: 10px 5px;
+
+}
+
+/* header */
+
+.header{
+    height: 160px;
+    padding: 20px;
+    background-color: #ff4500;
+}
+.header h3{
+    color: white;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* form container */
+
+.form-container{
+    background-color: #fdfdfd;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+}
+
+/* form header */
+
+.form-header{
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+
+.form-header p{
+    color: #ff4500;
+    border-bottom: 2px solid #ff4500;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+.form-body{
+    padding: 30px;
+}
+
+.form-title{
+    margin-bottom: 15px;
+}
+
+.form-body p{
+    margin-bottom: 20px;
+}
+
+.required-field{
+    color: red;
+}
+
+.box-input{
+    margin-bottom: 35px;
+}
+
+.block{
+    display: block;
+}
+
+.optional-box{
+    display: inline-block;
+    margin-right: 0px 30px 30px 0;
+
+}
+
+.optional-list li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.box-input{
+    margin-bottom: 15px;
+}
+
+.btn-submit{
+    background-color: #ff4500;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 121px;
+    height: 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn-submit:hover{
+   background-color: #cecece;
+   border-color: #ff4500;
+   color: #ff4500; 
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        width: 100%;
+        ;
+    }
+    .header h3{
+        color: white;
+        margin-top: 0;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .form-container{
+        background-color: #fdfdfd;
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        top: -62px;
+    }
+    .box-input{
+        margin-bottom: 15px;
+    }
+        input[type="text"],
+        input[type="number"],
+        input[type="date"],
+        input[type="file"],
+        textarea{
+        width: 400px;       
+    }
+    textarea{
+        padding: 10px 5px;
+    
+    }    
+
+}
+
+@media screen and (max-width: 500px){
+    .container{
+        width: 100%;
+        ;
+    }
+    .header h3{
+        color: white;
+        margin-top: 0;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .form-container{
+        background-color: #fdfdfd;
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        top: -62px;
+    }
+    .box-input{
+        margin-bottom: 15px;
+    }
+        input[type="text"],
+        input[type="number"],
+        input[type="date"],
+        input[type="file"],
+        textarea{
+        width: 230px;       
+    }
+    textarea{
+        padding: 10px 5px;
+    
+    }    
+
+}
+
+@media screen and (max-width: 450px){
+    .container{
+        width: 100%;
+        ;
+    }
+    .header h3{
+        color: white;
+        margin-top: 0;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .form-container{
+        background-color: #fdfdfd;
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        top: -62px;
+    }
+    .box-input{
+        margin-bottom: 15px;
+    }
+        input[type="text"],
+        input[type="number"],
+        input[type="date"],
+        input[type="file"],
+        textarea{
+        width: 230px;       
+    }
+    textarea{
+        padding: 10px 5px;
+    
+    }    
+
+}
+
+@media screen and (max-width: 300px){
+    .container{
+        width: 100%;
+        ;
+    }
+    .header h3{
+        color: white;
+        margin-top: 0;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .form-container{
+        background-color: #fdfdfd;
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        top: -62px;
+    }
+    .box-input{
+        margin-bottom: 15px;
+    }
+        input[type="text"],
+        input[type="number"],
+        input[type="date"],
+        input[type="file"],
+        textarea{
+        width: 220px;       
+    }
+    textarea{
+        padding: 10px 5px;
+    
+    }    
+
+}
+
+@media screen and (orientation: landscape){
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+textarea{
+width: 300px;       
+}
