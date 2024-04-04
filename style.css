@@ -206,6 +206,74 @@ textarea{
         padding: 10px 5px;
     
     }    
+    }  
+
+    @media screen and (max-width: 580px){
+        .container{
+            width: 100%;
+            ;
+        }
+        .header h3{
+            color: white;
+            margin-top: 0;
+            text-align: center;
+            padding-top: 30px;
+        }
+        .form-container{
+            background-color: #fdfdfd;
+            width: 80%;
+            margin: 0 auto;
+            position: relative;
+            top: -62px;
+        }
+        .box-input{
+            margin-bottom: 15px;
+        }
+            input[type="text"],
+            input[type="number"],
+            input[type="date"],
+            input[type="file"],
+            textarea{
+            width: 250px;       
+        }
+        textarea{
+            padding: 10px 5px;
+       }    
+    }
+
+
+@media screen and (max-width: 550px){
+    .container{
+        width: 100%;
+        ;
+    }
+    .header h3{
+        color: white;
+        margin-top: 0;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .form-container{
+        background-color: #fdfdfd;
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        top: -62px;
+    }
+    .box-input{
+        margin-bottom: 15px;
+    }
+        input[type="text"],
+        input[type="number"],
+        input[type="date"],
+        input[type="file"],
+        textarea{
+        width: 250px;       
+    }
+    textarea{
+        padding: 10px 5px;
+    
+    }    
 
 }
 
@@ -244,6 +312,47 @@ textarea{
 
 }
 
+@media screen and (max-width: 350px){
+    .container{
+        width: 100%;
+        ;
+    }
+    .header h3{
+        color: white;
+        margin-top: 0;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .form-container{
+        background-color: #fdfdfd;
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        top: -62px;
+    }
+    .box-input{
+        margin-bottom: 15px;
+    }
+        input[type="text"],
+        input[type="number"],
+        input[type="date"],
+        input[type="file"],
+        textarea{
+        width: 180px;       
+    }
+    textarea{
+        padding: 10px 5px;
+    
+    }
+    input[name="title"],
+        input[name="price"],
+        input[name="description"],
+        input[name="brand"],
+        input[name="model"]{        
+        font-size: 10px;
+    }
+}
+
 @media screen and (max-width: 300px){
     .container{
         width: 100%;
@@ -270,12 +379,20 @@ textarea{
         input[type="date"],
         input[type="file"],
         textarea{
-        width: 220px;       
+        width: 150px;       
     }
     textarea{
         padding: 10px 5px;
     
     }    
+
+        input[name="title"],
+        input[name="price"],
+        input[name="description"],
+        input[name="brand"],
+        input[name="model"]{        
+        font-size: 8.5px;
+    }
 
 }
 
@@ -286,4 +403,5 @@ input[type="date"],
 input[type="file"],
 textarea{
 width: 300px;       
+}
 }
